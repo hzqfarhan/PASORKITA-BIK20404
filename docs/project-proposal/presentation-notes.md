@@ -1,3 +1,5 @@
+> Historical proposal note: the original deck/script below describes the earlier MySQL plan. The current selected stack is Express + EJS + Supabase PostgreSQL + Three.js. See [the full current architecture](../architecture/system-architecture.md) and [migration status](../migration/setup-and-status.md).
+
 # Pasor Kita: presentation content and speaker notes
 
 ## Fit with Project Idea B

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-MY">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#782e42"><meta name="application-name" content="Pasor Kita">
+  <meta name="description" content="A little local. A little closer. Discover campus products and connect with sellers in the UTHM community.">
+  <title><%= title %> · Pasor Kita</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <link rel="preload" href="/assets/jakarta-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <% for (const cssFile of ['styles','accounts','reviews','loading','atmosphere','pwa','refinements']) { %><link rel="stylesheet" href="/<%= cssFile %>.css"><% } %>
+  <script src="/ui.js" defer></script><script type="module" src="/scene.js"></script>
+</head>
+<body>
+  <div class="campus-atmosphere" aria-hidden="true"><span class="atmosphere-glow glow-burgundy"></span><span class="atmosphere-glow glow-gold"></span><span class="atmosphere-grid"></span><img class="atmosphere-orbit" src="/assets/campus-orbit.svg" alt=""><span class="atmosphere-poly poly-one"></span><span class="atmosphere-poly poly-two"></span><span class="atmosphere-poly poly-three"></span></div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <%- include('partials/icons') %>
+  <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+    <a href="/" class="brand" aria-label="Pasor Kita home"><span class="brand-mark">p<span></span></span><span class="wordmark">pasor<span class="brand-period">.</span><small>KITA. THE UTHM MARKETPLACE</small></span></a>
+    <div class="sidebar-label">YOUR CAMPUS, CONNECTED</div>
+    <nav class="main-nav">
+      <% for (const [href,label,icon] of [['/','Discover','spark'],['/products','Marketplace','grid'],['/products?business=1','Campus businesses','store'],['/saved','Saved finds','heart'],['/messages','Messages','chat'],['/orders','My orders','bag'],['/seller','Seller studio','store'],['/account','My account','shield']]) { const selected = href === '/' ? currentPath === '/' : href.includes('?') ? currentPath==='/products' && query.business==='1' : currentPath===href && !(href==='/products' && query.business==='1'); %>
+      <a class="nav-item <%= selected?'active':'' %>" href="<%= href %>" <%- selected?'aria-current="page"':'' %>><svg aria-hidden="true"><use href="#i-<%= icon %>"></use></svg><%= label %></a><% } %>
+      <% if(user?.role==='admin'){ %><a class="nav-item <%= currentPath==='/admin'?'active':'' %>" href="/admin"><svg aria-hidden="true"><use href="#i-shield"></use></svg>Administration</a><% } %>
+    </nav>
+    <div class="sidebar-card-section"><div class="sidebar-label">A LITTLE MORE YOU</div>
+      <button class="mini-card-scene" type="button" data-open-card aria-label="Explore your interactive 3D campus card"><span class="mini-campus-card"><span class="mini-card-top"><span>pasor kita.</span><svg aria-hidden="true"><use href="#i-spark"></use></svg></span><span class="mini-card-orbit"></span><span class="mini-avatar"><%= initials(user?.name || 'Campus community') %></span><span class="mini-card-name"><%= user?.name || 'Your campus identity' %></span><span class="mini-card-role"><%= user?.campus || 'PARIT RAJA + PAGOH' %></span><span class="mini-card-bottom">UTHM COMMUNITY</span></span><span class="mini-card-caption">A little personality. A lot of you.</span></button>
+    </div>
+    <div class="business-invite"><svg class="business-invite-icon" aria-hidden="true"><use href="#i-store"></use></svg><h3>Your business.<br>Your next chapter.</h3><p>One campus account.<br>A place for your ideas.</p><a class="text-button" href="/account#businesses">Link a business <span aria-hidden="true">↗</span></a></div>
+    <div class="sidebar-bottom"><a class="help-button" href="/help"><svg aria-hidden="true"><use href="#i-help"></use></svg>How Pasor Kita works</a><button type="button" class="install-app text-button" hidden>Install Pasor Kita</button><div class="sidebar-footer"><span class="green-dot"></span>A little closer. A little more local.</div></div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" type="button" data-menu aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false"><svg aria-hidden="true"><use href="#i-menu"></use></svg></button>
+      <a href="/" class="header-greeting">Good finds start here<span>Made for the UTHM community.</span></a>
+      <form class="global-search" action="/products" role="search"><svg aria-hidden="true"><use href="#i-search"></use></svg><input name="q" type="search" value="<%= typeof query.q==='string'?query.q:'' %>" placeholder="What are you looking for?" aria-label="Search marketplace"><button type="submit" aria-label="Submit search">↗</button></form>
+      <div class="topbar-actions"><% if(user){ %><a class="login-button" href="/account"><span><%= user.name.split(' ')[0] %><small><%= user.campus %></small></span><svg aria-hidden="true"><use href="#i-shield"></use></svg></a><form action="/logout" method="post"><%- include('partials/csrf') %><button class="text-button sign-out" type="submit">Sign out</button></form><% }else{ %><a class="login-button" href="/login">Sign in <svg aria-hidden="true"><use href="#i-up-right"></use></svg></a><% } %></div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <% if(notice){ %><div class="notice" role="status"><svg aria-hidden="true"><use href="#i-check"></use></svg><%= notice %></div><% } %>
+      <%- include('pages/'+page) %>
+      <footer class="main-footer"><span><strong>pasor kita.</strong> Made for the people who make UTHM.</span><span>Campus pickup. Community connections.</span><a href="/help">Community guide ↗</a></footer>
+    </main>
+  </div>
+  <dialog id="card-dialog" class="campus-dialog" aria-labelledby="card-dialog-title"><button type="button" class="dialog-close" data-close-dialog aria-label="Close campus card">×</button><h2 id="card-dialog-title">Your campus identity, with dimension.</h2><p>Move your cursor over the card. Give it a flip.</p><%- include('partials/campus-card',{cardUser:user}) %><p class="muted">A Pasor Kita community profile. University identity verification is separate.</p></dialog>
+  <div class="navigation-progress" aria-hidden="true"></div><div id="toast-root" role="status" aria-live="polite"></div>
+</body></html>

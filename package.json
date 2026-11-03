@@ -1,19 +1,32 @@
 {
-  "name": "pasor-campus",
-  "version": "3.0.0",
+  "name": "pasor-kita",
+  "version": "4.0.0",
   "private": true,
   "type": "module",
-  "description": "The PASOR UTHM campus marketplace interactive preview",
+  "description": "Pasor Kita campus marketplace using Express, EJS, Supabase PostgreSQL and Three.js",
   "scripts": {
-    "dev": "node scripts/prepare-next.mjs && next dev --hostname 127.0.0.1 --port 4173",
-    "build": "node scripts/prepare-next.mjs && next build",
-    "start": "next start --hostname 127.0.0.1 --port 4173",
-    "check": "node --check dist/app.js && node scripts/prepare-next.mjs && node scripts/check-pwa.mjs"
+    "dev": "node --env-file-if-exists=.env --watch server/index.js",
+    "build": "node scripts/check-project.mjs",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "check": "node scripts/check-project.mjs",
+    "db:setup": "node --env-file-if-exists=.env scripts/setup-database.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
   },
-  "engines": { "node": ">=20.9.0" },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
-    "next": "16.4.3",
-    "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "bcryptjs": "^3.0.3",
+    "ejs": "^3.1.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.3",
+    "express-session": "^1.19.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.5.0",
+    "pg": "^8.23.1",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.16"
   }
 }

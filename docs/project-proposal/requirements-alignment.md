@@ -1,3 +1,5 @@
+> Historical planning note: this is the original proposal analysis. The implementation now uses Supabase PostgreSQL and fourteen page purposes. Use [the current assignment checklist](../migration/requirements-checklist.md) for up-to-date evidence and remaining checks.
+
 # Assignment alignment
 
 Source: supplied `sources/assignment-brief.pdf`, particularly pages 1-2 and the website rubric on page 5. The lecturer's quoted message sets the preliminary lab presentation format. It does not replace the PDF's final submission requirements.
