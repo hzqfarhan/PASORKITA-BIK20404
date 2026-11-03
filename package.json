@@ -1,0 +1,19 @@
+{
+  "name": "pasor-campus",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The PASOR UTHM campus marketplace interactive preview",
+  "scripts": {
+    "dev": "node scripts/prepare-next.mjs && next dev --hostname 127.0.0.1 --port 4173",
+    "build": "node scripts/prepare-next.mjs && next build",
+    "start": "next start --hostname 127.0.0.1 --port 4173",
+    "check": "node --check dist/app.js && node scripts/prepare-next.mjs && node scripts/check-pwa.mjs"
+  },
+  "engines": { "node": ">=20.9.0" },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}

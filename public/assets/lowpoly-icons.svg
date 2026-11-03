@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="lp-wine" x1="9" y1="8" x2="39" y2="43" gradientUnits="userSpaceOnUse"><stop stop-color="#B87489"/><stop offset=".52" stop-color="#91445E"/><stop offset="1" stop-color="#61283E"/></linearGradient>
+    <linearGradient id="lp-cream" x1="9" y1="7" x2="34" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8E7"/><stop offset=".6" stop-color="#EBD8B7"/><stop offset="1" stop-color="#C5A988"/></linearGradient>
+    <linearGradient id="lp-gold" x1="12" y1="5" x2="34" y2="42" gradientUnits="userSpaceOnUse"><stop stop-color="#F1D598"/><stop offset=".6" stop-color="#D0A86A"/><stop offset="1" stop-color="#AB7E45"/></linearGradient>
+    <linearGradient id="lp-lavender" x1="6" y1="9" x2="40" y2="38" gradientUnits="userSpaceOnUse"><stop stop-color="#E0D4EE"/><stop offset=".5" stop-color="#BDA4D6"/><stop offset="1" stop-color="#8971AA"/></linearGradient>
+    <linearGradient id="lp-blue" x1="9" y1="7" x2="35" y2="42" gradientUnits="userSpaceOnUse"><stop stop-color="#D8E5E4"/><stop offset=".55" stop-color="#9DB5BC"/><stop offset="1" stop-color="#728C9D"/></linearGradient>
+  </defs>
+
+  <symbol id="all" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="24" cy="41" rx="18" ry="3" fill="#8D6B63" opacity=".11"/>
+      <path d="M7 12L16 8L25 13L16 18L7 12Z" fill="#C58C9E"/>
+      <path d="M7 12L16 18V28L7 22V12Z" fill="url(#lp-wine)"/>
+      <path d="M16 18L25 13V23L16 28V18Z" fill="#74354E"/>
+      <path d="M28 9L36 5L44 10L36 15L28 9Z" fill="#F7E6C8"/>
+      <path d="M28 9L36 15V24L28 19V9Z" fill="url(#lp-cream)"/>
+      <path d="M36 15L44 10V19L36 24V15Z" fill="#C8AC85"/>
+      <path d="M6 30L15 25L24 30L15 35L6 30Z" fill="#E5D8F2"/>
+      <path d="M6 30L15 35V44L6 38V30Z" fill="url(#lp-lavender)"/>
+      <path d="M15 35L24 30V39L15 44V35Z" fill="#9D84B8"/>
+      <path d="M28 30L36 25L44 30L36 35L28 30Z" fill="#D2E0DC"/>
+      <path d="M28 30L36 35V43L28 38V30Z" fill="url(#lp-blue)"/>
+      <path d="M36 35L44 30V38L36 43V35Z" fill="#8CA6A8"/>
+      <path d="M9 13L16 17L22 14M30 10L36 14L41 11M8 31L15 34L21 31M30 31L36 34L41 31" stroke="#FFF9EC" stroke-opacity=".5" stroke-width=".8"/>
+    </g>
+  </symbol>
+
+  <symbol id="food" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="25" cy="42" rx="18" ry="3" fill="#886147" opacity=".12"/>
+      <path d="M7 33L13 39L34 42L42 36L41 31L8 29L7 33Z" fill="#B68A57"/>
+      <path d="M8 30L17 28L39 29L42 33L34 38L13 36L8 30Z" fill="url(#lp-cream)"/>
+      <path d="M8 28L14 25L38 26L42 29L40 33L32 35L13 33L8 30V28Z" fill="#71354A"/>
+      <path d="M9 24L16 21L35 22L42 25L35 30L27 28L21 32L14 28L8 27L9 24Z" fill="#A0AA7E"/>
+      <path d="M13 23L23 21L39 24L27 29L13 23Z" fill="#E5BF74"/>
+      <path d="M7 22L10 15L17 9L28 7L37 12L42 21L38 25L14 25L7 22Z" fill="url(#lp-gold)"/>
+      <path d="M7 22L17 16L28 7L37 12L42 21L28 18L14 25L7 22Z" fill="#F3D7A3" opacity=".7"/>
+      <path d="M17 9L17 16L28 18L37 12L28 7L17 9Z" fill="#F9E3B9" opacity=".8"/>
+      <path d="M14 17L17 15M24 13L27 12M32 17L34 16" stroke="#FFF7E3" stroke-width="1.7" stroke-linecap="round"/>
+    </g>
+  </symbol>
+
+  <symbol id="preloved" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="24" cy="41" rx="20" ry="3" fill="#77637E" opacity=".12"/>
+      <path d="M5 30L9 28L27 31L43 29L45 34L41 39L15 40L5 36V30Z" fill="#C4B8C7"/>
+      <path d="M5 29L12 22L14 10L23 13L29 23L42 27L44 31L40 35L16 36L5 32V29Z" fill="url(#lp-lavender)"/>
+      <path d="M14 10L23 13L22 21L14 25L12 22L14 10Z" fill="#806483"/>
+      <path d="M7 27L16 23L22 21L29 23L42 27L33 31L18 28L7 27Z" fill="#E5D6E8"/>
+      <path d="M18 28L16 36L40 35L44 31L33 31L18 28Z" fill="#AB8CB8"/>
+      <path d="M8 29L16 33L40 33L44 30L44 34L40 37L16 38L6 34L5 31L8 29Z" fill="url(#lp-cream)"/>
+      <path d="M22 19L28 22M19 23L25 26M16 26L21 29" stroke="#FFF7E9" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M27 27L33 29L29 31L23 29L27 27Z" fill="#8B415A"/>
+      <path d="M14 12L19 14L18 18L13 17L14 12Z" fill="#E8D4D9"/>
+    </g>
+  </symbol>
+
+  <symbol id="services" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="24" cy="42" rx="17" ry="2.5" fill="#77637E" opacity=".11"/>
+      <path d="M28 9L36 8L40 14L39 23L32 28L23 26L12 40L6 41L4 36L17 21L17 13L23 7L27 7L23 15L27 20L32 18L34 13L28 9Z" fill="#8D759D"/>
+      <path d="M27 5L35 4L39 10L38 19L31 24L22 22L11 36L5 37L3 32L16 17L16 9L22 3L26 3L22 11L26 16L31 14L33 9L27 5Z" fill="url(#lp-lavender)"/>
+      <path d="M3 32L8 31L22 17L22 22L11 36L5 37L3 32Z" fill="#B394C8"/>
+      <path d="M16 9L22 3L26 3L22 11L26 16L31 14L27 20L21 18L16 17V9Z" fill="#E4D5EF"/>
+      <circle cx="8.5" cy="32" r="1.8" fill="#735C83"/>
+      <path d="M36 28L38 33L43 35L38 37L36 42L34 37L29 35L34 33L36 28Z" fill="url(#lp-gold)"/>
+      <path d="M36 28V35H29L34 33L36 28Z" fill="#F7E4BB"/>
+      <path d="M17 10L18 16L21 17" stroke="#FFF9EE" stroke-opacity=".8" stroke-width="1" stroke-linecap="round"/>
+    </g>
+  </symbol>
+
+  <symbol id="rentals" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="25" cy="41" rx="18" ry="3" fill="#6C7780" opacity=".12"/>
+      <path d="M10 15L16 12L34 12L43 17L43 34L37 38L10 35V15Z" fill="#6F8495"/>
+      <path d="M7 14L14 11L33 11L39 15L39 32L34 36L7 33V14Z" fill="url(#lp-blue)"/>
+      <path d="M7 14L13 10L18 10L20 6L29 7L32 12L39 15L29 18L7 14Z" fill="#D3DDE0"/>
+      <path d="M20 6L29 7L32 12L23 13L18 10L20 6Z" fill="#B7C8D0"/>
+      <path d="M39 15L43 17L43 34L37 38L34 36L39 32V15Z" fill="#728697"/>
+      <path d="M9 15L17 17L17 33L9 31V15Z" fill="#8E9FAC"/>
+      <path d="M25 16L33 20L36 28L32 34L24 36L17 32L14 24L18 18L25 16Z" fill="#746275"/>
+      <path d="M24 16L31 20L34 27L30 33L23 34L17 30L15 23L18 18L24 16Z" fill="#9883A5"/>
+      <path d="M24 20L29 23L30 28L26 31L21 30L18 25L20 21L24 20Z" fill="#55485E"/>
+      <path d="M24 21L28 24L27 28L22 28L20 24L24 21Z" fill="#A4BDC7"/>
+      <path d="M24 21L24 25L20 24L24 21Z" fill="#DFEBE9"/>
+      <path d="M9 18L13 19V22L9 21V18Z" fill="#F1D5A1"/>
+      <path d="M23 9L28 10" stroke="#FFF9E9" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </symbol>
+
+  <symbol id="others" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="25" cy="42" rx="18" ry="3" fill="#886E54" opacity=".12"/>
+      <path d="M6 15L24 7L43 16L42 34L25 43L7 34L6 15Z" fill="#C4A17E"/>
+      <path d="M6 15L24 7L43 16L25 25L6 15Z" fill="url(#lp-cream)"/>
+      <path d="M6 15L25 25V43L7 34L6 15Z" fill="#E7C7A1"/>
+      <path d="M25 25L43 16L42 34L25 43V25Z" fill="#C6A482"/>
+      <path d="M15 11L34 20L34 39L29 41L29 22L10 13L15 11Z" fill="#A8657A"/>
+      <path d="M15 11L34 20L39 18L20 9L15 11Z" fill="#D6A4AE"/>
+      <path d="M10 23L19 28V34L10 29V23Z" fill="#FAEDD6"/>
+      <path d="M12 27L16 29M12 29L17 32" stroke="#BCA080" stroke-width=".9" stroke-linecap="round"/>
+      <path d="M8 15L25 23L40 16" stroke="#FFF6DF" stroke-opacity=".65" stroke-width=".9"/>
+    </g>
+  </symbol>
+
+  <symbol id="spark" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="25" cy="42" rx="13" ry="2" fill="#997649" opacity=".11"/>
+      <path d="M25 5L30 19L43 25L30 30L25 44L20 30L7 25L20 19L25 5Z" fill="#B38953"/>
+      <path d="M23 3L28 17L41 23L28 28L23 42L18 28L5 23L18 17L23 3Z" fill="url(#lp-gold)"/>
+      <path d="M23 3V23L5 23L18 17L23 3Z" fill="#F8E8BE"/>
+      <path d="M23 23L41 23L28 28L23 42V23Z" fill="#BA8B4D"/>
+      <path d="M23 3L28 17L23 23L18 17L23 3Z" fill="#EFCD8F"/>
+      <path d="M37 5L39 10L44 12L39 14L37 19L35 14L30 12L35 10L37 5Z" fill="#DEC18E"/>
+    </g>
+  </symbol>
+
+  <symbol id="bag" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="25" cy="43" rx="16" ry="2.5" fill="#795562" opacity=".13"/>
+      <path d="M14 18L31 15L39 20L42 37L34 42L11 39L9 21L14 18Z" fill="#693147"/>
+      <path d="M10 17L30 15L34 20L34 39L11 37L8 21L10 17Z" fill="url(#lp-wine)"/>
+      <path d="M10 17L30 15L39 20L34 23L8 20L10 17Z" fill="#CB8C9B"/>
+      <path d="M34 23L39 20L42 37L34 42V23Z" fill="#713249"/>
+      <path d="M16 19L15 12L18 7L23 6L28 10L29 20" stroke="#6B3047" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M14 18L13 11L16 6L21 5L26 9L27 19" stroke="#BD7B91" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M18 34V25H23L26 27L25 31H21V34H18ZM21 27V29H23V27H21Z" fill="#F5E4C4"/>
+      <path d="M12 23L13 34" stroke="#D99FA9" stroke-opacity=".6" stroke-width=".9" stroke-linecap="round"/>
+    </g>
+  </symbol>
+
+  <symbol id="shield" viewBox="0 0 48 48">
+    <g stroke="none">
+      <ellipse cx="25" cy="43" rx="13" ry="2" fill="#795562" opacity=".12"/>
+      <path d="M25 5L41 12L39 29L32 38L25 44L17 39L10 30L8 13L25 5Z" fill="#6B3047"/>
+      <path d="M22 3L38 10L36 27L29 36L22 42L14 37L7 28L5 11L22 3Z" fill="url(#lp-wine)"/>
+      <path d="M22 7L34 12L32 26L27 33L22 37L16 33L11 26L9 13L22 7Z" fill="url(#lp-cream)"/>
+      <path d="M22 7V37L16 33L11 26L9 13L22 7Z" fill="#FFF1D3" opacity=".65"/>
+      <path d="M15 21L20 26L29 16" stroke="#8B475B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M7 11L22 5L35 11" stroke="#D8A9B7" stroke-opacity=".6" stroke-width=".9" stroke-linecap="round"/>
+    </g>
+  </symbol>
+</svg>

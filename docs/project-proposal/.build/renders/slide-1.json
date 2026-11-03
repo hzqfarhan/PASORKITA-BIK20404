@@ -1,0 +1,10 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/kudvfj","index":0,"layout":{"id":"ly/jyhcvu1w","name":"Blank"},"backgroundColor":"rgba(250,246,239,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/wfmdwn6x","kind":"textbox","name":"page-number","position":{"left":1170,"top":662,"width":40,"height":26},"text":"01","style":{"fontSize":19,"typeface":"Arial","color":"#665A5B","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/vedwn2pc","kind":"textbox","name":"course","position":{"left":72,"top":71,"width":650,"height":32},"text":"BIK20404 WEB DEVELOPMENT","style":{"fontSize":22,"typeface":"Arial","color":"#665A5B","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/ud4vuxor","kind":"textbox","name":"project-title","position":{"left":72,"top":170,"width":640,"height":215},"text":"PASOR\nKITA","style":{"fontSize":96,"typeface":"Arial","color":"#782B46","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/9cvels7m","kind":"textbox","name":"project-subtitle","position":{"left":76,"top":414,"width":700,"height":96},"text":"A Campus E-commerce Marketplace\nfor the UTHM Community","style":{"fontSize":32,"typeface":"Arial","color":"#32272A","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/8bmdsn61","kind":"textbox","name":"project-category","position":{"left":76,"top":574,"width":670,"height":38},"text":"Project Idea B: E-commerce","style":{"fontSize":25,"typeface":"Arial","color":"#782B46","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/7adcjipg","kind":"textbox","name":"semester","position":{"left":76,"top":619,"width":670,"height":32},"text":"Semester 1, 2026/2027","style":{"fontSize":23,"typeface":"Arial","color":"#665A5B","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/76tg7elk","kind":"image","position":{"left":739,"top":145,"width":480,"height":438},"fit":"contain","alt":"Original PASOR shopping bag illustration from the project"}
+]}
