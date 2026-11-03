@@ -1,5 +1,15 @@
-# Pasor Kita documentation
+<p align="center">
+  <img src="assets/uthm-logo.png" alt="UTHM Logo" width="300" />
+</p>
 
-All new project planning and presentation material belongs in this folder.
+# PASOR KITA — Documentation
 
-Start with [the project proposal](project-proposal/README.md). Website application code remains in the existing application folders.
+**Course:** BIK20404 Web Development &bull; Semester 1, 2026/2027  
+**Institution:** Universiti Tun Hussein Onn Malaysia (UTHM)
+
+This directory contains planning, architectural, and presentation materials for the **Pasor Kita** project.
+
+## 📑 Contents
+
+* **[Project Proposal](project-proposal/README.md)**: Proposal deck, slide notes, alignment matrix, and database architecture.
+* **Proposal Presentation Slides**: Located in [`project-proposal/slides/`](project-proposal/slides/pasor-kita-project-proposal.pptx).

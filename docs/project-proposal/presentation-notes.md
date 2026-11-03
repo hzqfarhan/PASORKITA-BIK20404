@@ -36,11 +36,19 @@ BIK20404 Web Development
 
 Semester 1, 2026/2027
 
+**Team Members**
+
+| No. | Student Name | Matric No. | Author Profile |
+| :-: | :--- | :-: | :--- |
+| 1 | [ARINAH HUSNA BINTI MOHD NOOR](https://author.uthm.edu.my/student/#) | `AI250059` | [author.uthm.edu.my](https://author.uthm.edu.my/student/#) |
+| 2 | [NUR AISYA SOFEA BINTI SHAHRUL AMER](https://author.uthm.edu.my/student/#) | `AI250114` | [author.uthm.edu.my](https://author.uthm.edu.my/student/#) |
+| 3 | [NUR QURRATUL AIN BINTI NORHASRIZAL](https://author.uthm.edu.my/student/#) | `AI250186` | [author.uthm.edu.my](https://author.uthm.edu.my/student/#) |
+| 4 | [AISYAH HUSNA BINTI AL-HILMI](https://author.uthm.edu.my/student/#) | `AI250164` | [author.uthm.edu.my](https://author.uthm.edu.my/student/#) |
+| 5 | [MUHAMMAD HAZIQ FARHAN BIN NORDIN](https://author.uthm.edu.my/student/#) | `AI250128` | [author.uthm.edu.my](https://author.uthm.edu.my/student/#) |
+
 **Suggested speech**
 
-Assalamualaikum and good afternoon. Our proposed project is Pasor Kita, a campus e-commerce marketplace for the UTHM community. It falls under Project Idea B because it allows campus sellers to promote products and users to place orders. We plan to focus on everyday products such as food, books and preloved items, with campus pickup as the main fulfilment method.
-
-Introduce the actual group members verbally or add their names to the cover before presentation. Group details are not available in the supplied materials.
+Assalamualaikum and good afternoon to our lecturer and fellow classmates. Our proposed project is Pasor Kita, a campus e-commerce marketplace for the UTHM community, presented by Arinah Husna, Nur Aisya Sofea, Nur Qurratul Ain, Aisyah Husna, and Muhammad Haziq Farhan. It falls under Project Idea B because it allows campus sellers to promote products and users to place orders. We plan to focus on everyday products such as food, books and preloved items, with campus pickup as the main fulfilment method.
 
 ## Slide 2: Background
 

@@ -1,18 +1,42 @@
-# Pasor Kita project proposal
+<p align="center">
+  <img src="../assets/uthm-logo.png" alt="UTHM Logo" width="320" />
+</p>
 
-Prepared for BIK20404 Web Development, Semester 1, 2026/2027.
+# Pasor Kita Project Proposal
+
+**Course:** BIK20404 Web Development &bull; Semester 1, 2026/2027  
+**Faculty:** Faculty of Computer Science and Information Technology (FSKTM), UTHM  
+**Project:** PASOR KITA — A Campus E-Commerce Marketplace (Project Idea B)
+
+---
+
+## 👥 Project Team
+
+| No. | Student Name | Matric No. | Author Profile |
+| :-: | :--- | :-: | :--- |
+| 1 | [ARINAH HUSNA BINTI MOHD NOOR](https://author.uthm.edu.my/student/#) | `AI250059` | [author.uthm.edu.my/student/#](https://author.uthm.edu.my/student/#) |
+| 2 | [NUR AISYA SOFEA BINTI SHAHRUL AMER](https://author.uthm.edu.my/student/#) | `AI250114` | [author.uthm.edu.my/student/#](https://author.uthm.edu.my/student/#) |
+| 3 | [NUR QURRATUL AIN BINTI NORHASRIZAL](https://author.uthm.edu.my/student/#) | `AI250186` | [author.uthm.edu.my/student/#](https://author.uthm.edu.my/student/#) |
+| 4 | [AISYAH HUSNA BINTI AL-HILMI](https://author.uthm.edu.my/student/#) | `AI250164` | [author.uthm.edu.my/student/#](https://author.uthm.edu.my/student/#) |
+| 5 | [MUHAMMAD HAZIQ FARHAN BIN NORDIN](https://author.uthm.edu.my/student/#) | `AI250128` | [author.uthm.edu.my/student/#](https://author.uthm.edu.my/student/#) |
+
+---
+
+## 📁 Proposal Deliverables
 
 | File | Purpose |
-| --- | --- |
-| [PowerPoint presentation](slides/pasor-kita-project-proposal.pptx) | Editable presentation: title, background, modules, and an architecture appendix |
-| [Presentation content and speaker notes](presentation-notes.md) | Copy-ready slide text, rehearsal script, timing and likely questions |
-| [Assignment alignment](requirements-alignment.md) | All 11 website requirements, proposed 13 pages, implementation gaps and report obligations |
-| [System architecture](system-architecture.md) | Proposed Express/MySQL design, database relationships and migration plan |
-| `sources/assignment-brief.pdf` | Unchanged copy of the supplied assignment PDF |
-| `sources/project-ideas.jpg` | Unchanged copy of the supplied project-ideas image |
+| :--- | :--- |
+| 📊 [PowerPoint presentation](slides/pasor-kita-project-proposal.pptx) | Editable presentation: title, background, modules, and architecture appendix |
+| 🎙️ [Presentation content and speaker notes](presentation-notes.md) | Copy-ready slide text, rehearsal script, timing and anticipated Q&A |
+| 📋 [Assignment alignment](requirements-alignment.md) | All 11 website requirements, proposed 13 pages, implementation gaps and report obligations |
+| 🏗️ [System architecture](system-architecture.md) | Proposed Express/MySQL design, relational database schema and migration plan |
+| 📄 `sources/assignment-brief.pdf` | Official assignment brief copy |
+| 🖼️ `sources/project-ideas.jpg` | Provided project ideas reference |
 
-The lecturer's message asks for **three slides in under 10 minutes** for the preliminary lab presentation. Slides 1-3 meet that structure. Slide 4 is the user's requested architecture appendix. Keep it as backup unless the lecturer permits the extra slide. The PDF describes a separate final presentation lasting 15-20 minutes.
+---
 
-The implementation described here is a **proposal**. The current application remains a local Next.js preview. This documentation work does not migrate the application or connect real accounts, orders or a database.
+## ⏱️ Presentation Guidelines
 
-Working renders, validation evidence and the reproducible slide builder are stored in `.build/`. They are supporting files, not hand-in material. Add the actual group members, matriculation numbers and section before submission when needed. No group details have been invented.
+* The preliminary lab presentation requires **three slides in under 10 minutes** (Title, Background, List of Modules).
+* Slide 4 is an optional system architecture appendix.
+* The implementation described in this proposal bridges the current frontend preview into the final full-stack web application.
